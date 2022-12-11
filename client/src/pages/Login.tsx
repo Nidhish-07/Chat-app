@@ -4,8 +4,8 @@ type Props = {};
 
 const Login = (props: Props) => {
   return (
-    <div className="bg-[#a7bcff] h-[100vh] flex items-center justify-center">
-      <div className="bg-white px-5 py-15 flex flex-col gap-3 items-center">
+    <div className="bg-[#a7bcff] h-[100vh] flex items-center justify-center ">
+      <div className="bg-white px-8 py-16 flex flex-col gap-3 items-center rounded-lg ">
         <span className="text-[#5d5b8d] font-bold text-2xl">Chat App</span>
         <span className="text-[#5d5b8d] text-sm">Register</span>
         <form action="" className="flex flex-col gap-4">

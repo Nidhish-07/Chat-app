@@ -1,4 +1,5 @@
 import React from 'react'
+import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 
@@ -8,7 +9,8 @@ const App = (props: Props) => {
   return (
     <div>
       {/* <Register /> */}
-      <Login></Login>
+      {/* <Login></Login> */}
+      <Home></Home>
     </div>
   )
 }
